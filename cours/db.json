@@ -1,0 +1,9 @@
+{
+  "posts": [
+    {
+      "pseudo": "Alex",
+      "message": "Hello Alex",
+      "id": 2
+    }
+  ]
+}
