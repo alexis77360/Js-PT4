@@ -122,3 +122,61 @@ async function fetchData () {
   await console.log('aza');
 
 } */
+
+
+//! Json
+//? convertir un objet JS en chaîne JSON
+
+/* const obj = {
+  pseudo: "Alex",
+  age: 28,
+  technos: ["Javascript", "React", "NodeJs"],
+};
+
+const json = JSON.stringify(obj);
+console.log(json); 
+
+ */
+
+//? convertir une chaîne JSON en objet JS
+
+/* const json = '{"pseudo": "Alex", "age": 28, "technos": ["Javascript", "React", "NodeJs"]}';
+const obj = JSON.parse(json);
+console.log(obj); */
+
+
+//! Web Api
+
+//? Local Storage peut stocker environ 10Mo de données 
+//! Attention il faut stocker des chaînes de caractères donc il faut convertir les objets en JSON
+
+/* localStorage.setItem("pseudo", "Alex");
+localStorage.removeItem("pseudo");
+localStorage.clear(); */
+
+
+//? Session Storage ne stocke que pour la session en cours
+
+/* sessionStorage.setItem("pseudo", "Alex");
+sessionStorage.removeItem("pseudo");
+sessionStorage.clear(); */
+
+
+//? Cookies est stocké dans le navigateur et envoyé au serveur à chaque requête
+/* 
+// Si pas de date d'expiration, le cookie dure la session
+document.cookie = "username=Alex; expires=Thu, 21 Oct 2021 07:28:00 GMT; path=/";
+
+// Max-age en millisecondes Secure pour https et SameSite pour la sécurité
+
+document.cookie = "username=Alex; max-age=60; path=/ secure samesite="; */
+
+
+
+
+
+
+
+
+
+
