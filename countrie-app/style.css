@@ -23,10 +23,15 @@ input[type="range"] {
   margin: 0 10px 10px 0;
   cursor: pointer;
   border-radius: 30px;
-
-
-  
+  -webkit-appearance: none;
+  background: #dbdbe2;
+  outline: none;
 }
+
+
+
+
+
 .range-container span {
   font-size: 1.2rem;
   transform: translateY(-3px);
